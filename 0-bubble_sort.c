@@ -25,6 +25,7 @@ s = array[i + 1];
 array[i] = s;
 array[i + 1] = f;
 state = false;
+print_array(array, size);
 }
 }
 if (state == true)
@@ -32,7 +33,6 @@ if (state == true)
 print_array(array, size);
 break;
 }
-print_array(array, size);
 }
 
 }
