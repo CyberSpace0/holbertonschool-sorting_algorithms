@@ -30,7 +30,6 @@ print_array(array, size);
 }
 if (state == true)
 {
-print_array(array, size);
 break;
 }
 }
