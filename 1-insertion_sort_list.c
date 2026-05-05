@@ -4,9 +4,8 @@
 #include "sort.h"
 
 /**
- * bubble_sort - Entry point
- * @array: array
- * @size: size int
+ * insertion_sort_list - Entry point
+ * @list: array
  * Return: Always 0 (Success)
  */
 void insertion_sort_list(listint_t **list)
